@@ -1,0 +1,125 @@
+p {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #40514E;
+  padding-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  font-weight: 600;
+  color: #414141;
+  padding: 5% 0 3% 0;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Slabo 27px', serif;
+  font-weight: 600;
+  color: #4d4646;
+}
+
+hr {
+  width: 50%;
+}
+/* HEADING SECTION */
+
+.nav-item {
+  margin-left: 270px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FFF;
+}
+
+.nav-link {
+  padding: 0 0 0 0;
+}
+
+.heading-section {
+  background-image: url("images/wanakaHeaderImg.jpg");
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 8%;
+  font-family: 'Kalam', cursive;
+  color: #FFF;
+  font-size: 5rem;
+}
+
+.title-text {
+  padding-top: 5%;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+/* INFO SECTION */
+.info-section {
+  background-color: #e5e5e5;
+  padding-bottom: 20px;
+}
+
+.my-face {
+  border-radius: 10%;
+}
+
+.skills-list {
+  padding-left: 0;
+}
+
+.info-column {
+  padding-top: 5%;
+  font-size: 1.3rem;
+}
+
+/* PROJECTS SECTION */
+.project-section {
+  background-color: #46b3e6;
+}
+
+.project-column {
+  padding: 0 5% 50px 5%;
+}
+
+.project-image {
+  height: 125px;
+  width: 300px;
+  align-items: center;
+}
+
+.zoom {
+  transition: transform .2s;
+  max-width: 300px;
+  max-height: 135px;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+/* CONTACT SECTION */
+.contact-section {
+  background-color: #e5e5e5;
+  padding-bottom: 50px;
+}
+
+.footer-text {
+  padding: 0 0 20px 0;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.footer-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 40px;
+}
